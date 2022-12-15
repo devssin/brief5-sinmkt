@@ -4,5 +4,5 @@
 <br>
 
 <div>
-  <img src="../diagrammes/UseCaseDiagrame.jpg" >
+  <img src="https://github.com/devssin/brief5-sinmkt/blob/master/diagrammes/UseCaseDiagram.jpg?raw=true" >
 </div>
