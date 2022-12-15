@@ -4,5 +4,5 @@
 <br>
 
 <div>
-  <img src="./diagrammes/UseCaseDiagrame.jpg" >
+  <img src="../diagrammes/UseCaseDiagrame.jpg" >
 </div>
