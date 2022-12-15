@@ -650,7 +650,7 @@ footer {
   min-width: 100%;
 }
 footer .main-footer {
-  padding: 6rem 0;
+  padding: 3.5rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -662,7 +662,7 @@ footer .main-footer .logo-text img {
 }
 footer .main-footer .logo-text p {
   width: 80%;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 1rem;
   line-height: 160%;
 }
@@ -674,7 +674,7 @@ footer .main-footer .useful-links h3 {
 }
 footer .main-footer .useful-links p {
   margin-top: 1rem;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -693,7 +693,7 @@ footer .main-footer .contact-infos h3 {
   font-size: 1.5rem;
 }
 footer .main-footer .contact-infos p {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 1rem;
 }
 footer .main-footer .contact-infos p i {
@@ -713,7 +713,7 @@ footer .second-footer p span {
 }
 footer .second-footer p i {
   font-size: 1rem;
-  margin-left: 4rem;
+  margin-left: 2.5rem;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
 }
