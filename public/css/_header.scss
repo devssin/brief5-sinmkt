@@ -1,0 +1,143 @@
+header {
+  background-color: rgba(255, 255, 255, 0.644);
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  .burger {
+    display: none;
+  }
+
+  .logo-container {
+    flex: 1;
+
+    img {
+      width: 8rem;
+    }
+  }
+
+  .nav-links {
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+    img {
+      display: none;
+    }
+    li {
+      font-size: 1rem;
+      a {
+        text-decoration: none;
+        color: $textColorPrimary;
+        font-weight: 600;
+        transition: all 0.3s ease-in;
+
+        &:hover {
+          color: $primaryColor;
+        }
+      }
+    }
+  }
+
+  .icons-container {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    i {
+      font-size: 1.25rem;
+      transition: all 1s ease;
+      margin-left: 1.5rem;
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+}
+
+.search-bar {
+  background: $textColorPrimary;
+  padding: 0 3rem;
+  color: $textColorSec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transform: translateY(-120%);
+  height: 0;
+  transition: all 1s ease;
+  opacity: 0;
+
+  .input {
+    i {
+      font-size: 1rem;
+    }
+    input {
+      padding: 1rem;
+      background-color: transparent;
+      border: none;
+      font-size: 1rem;
+      color: $textColorSec;
+      margin-left: 1rem;
+    }
+  }
+
+  .close-container {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
+
+.open {
+  transform: translateY(0);
+  height: fit-content;
+  padding: 2rem 3rem;
+  opacity: 1;
+}
+
+@media only screen and(max-width: 700px) {
+  .logo-container {
+    flex: 1;
+    .logo {
+      width: 4rem !important;
+    }
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $textColorSec;
+    width: 100%;
+    height: 50vh;
+    transform: translateY(-100%);
+    transition: transform 1s ease-in-out;
+
+    img {
+      display: block !important;
+      width: 1rem;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
+  }
+  .burger {
+    display: block !important;
+    img {
+      width: 2rem;
+    }
+  }
+  .show {
+    transform: translateY(0%);
+  }
+}

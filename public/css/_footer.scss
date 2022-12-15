@@ -1,0 +1,106 @@
+footer{
+    background-color:#E1E1E1;
+    min-width: 100%;
+
+
+    .main-footer{
+        padding: 6rem 0;
+        display: flex;
+        justify-content: space-between;
+
+        .logo-text{
+            flex:1;
+
+            img{
+                width: 10rem;
+            }
+
+            p{
+                width: 80%;
+                margin-top: 2rem;
+                font-size: 1rem;
+                line-height: 160%;
+            }
+        }
+        .useful-links{
+            flex: 1;
+            h3{
+                font-size: 1.25rem;
+            }
+            p{
+                margin-top: 1rem;
+                margin-left: 2rem ;
+                font-size: 1rem;
+                font-weight: 600;
+
+                a{
+                    text-decoration: none;
+                    color: $textColorPrimary;
+                    transition: all .3s ease-in-out;
+
+                    &:hover{
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+        .contact-infos{
+            flex: 1;
+            h3{
+                font-size: 1.5rem;
+            }
+            p{
+                margin-top: 2rem;
+                font-size: 1rem;
+                i{
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+
+    .second-footer{
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-size: .75rem;
+            span{
+                color: $primaryColor;
+                font-weight: 700;
+            }
+            i{
+                font-size: 1rem;
+                margin-left: 4rem;
+                cursor: pointer;
+                transition: color .3s ease-in-out;
+                &:hover{
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and(max-width: 700px){
+    .main-footer{
+        flex-direction: column;
+        justify-content: space-between;
+
+        .logo-text , .contact-infos, .useful-links{
+            margin: 3rem 0;
+        }
+    }
+    .second-footer{
+        flex-direction: column;
+        align-items: center;
+        p{
+            margin: 1rem;
+            i{
+                margin:0 .2rem;
+            }
+        }
+    }
+}
+
