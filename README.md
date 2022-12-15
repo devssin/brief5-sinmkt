@@ -2,4 +2,7 @@
 
 ##  1- Diagrammes de Cas d'utilisation :
 <br>
-![UseCase Diagrammes](diagrammes/UseCaseDiagram.jpg)
+
+<div>
+  <img src="./diagrammes/UseCaseDiagrame.jpg" >
+</div>
