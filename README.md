@@ -2,4 +2,7 @@
 
 ##  1- Diagrammes de Cas d'utilisation :
 <br>
-![UseCase Diagrammes](./diagrammes/UseCaseDiagram.jpg)
+
+<div>
+  <img src="https://github.com/devssin/brief5-sinmkt/blob/master/diagrammes/UseCaseDiagram.jpg?raw=true" >
+</div>
