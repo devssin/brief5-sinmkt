@@ -541,6 +541,7 @@ main .hero .right img {
 }
 
 .features-section {
+  background-color: #f8f8f8;
   padding: 4rem 0;
 }
 .features-section h2 {
@@ -554,8 +555,10 @@ main .hero .right img {
   flex-wrap: wrap;
 }
 .features-section .features .feature {
+  background: #fff;
   width: 15rem;
   padding: 0.657rem;
+  border-radius: 1rem;
   transition: all 0.5s ease-out;
 }
 .features-section .features .feature:hover {

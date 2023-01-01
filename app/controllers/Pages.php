@@ -3,6 +3,7 @@
 class Pages extends Controller {
     public function __construct()
     {
+        $this->productModel = $this->model('product');
     }
 
     public function index(){
@@ -14,8 +15,12 @@ class Pages extends Controller {
         $this->view('pages/contact');
     }
     public function shop(){
-        
-        $this->view('pages/shop');
+        $products = $this->productModel->getProducts();
+        $data=[
+            'products' => $products
+        ];
+        $this->view('pages/shop', $data);
+
     }
     public function blog(){
         

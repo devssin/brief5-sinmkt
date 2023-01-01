@@ -67,7 +67,7 @@ class Users extends Controller
     public function createUserSession($user)
     {
         $_SESSION['username'] = $user;
-        redirect('dashboard');
+        redirect('products');
     }
 
     public function logout(){

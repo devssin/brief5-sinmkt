@@ -34,3 +34,4 @@ INSERT INTO products(name , image, description , id_cat) VALUES('Produit 5', 'ht
 
 SELECT * , name_cat  from products JOIN categories on products.id_cat = categories.id_cat;
 
+ALTER TABLE products ADD COLUMN price DECIMAL AFTER image;

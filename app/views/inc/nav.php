@@ -27,7 +27,7 @@
                 <li><a href="<?php echo URLROOT ?>/pages/blog">Blog</a></li>
                 <li><a href="<?php echo URLROOT ?>/pages/contact">Contact Us</a></li>
                 <?php if(isLoggedIn()) :?>
-                <li><a href="<?php echo URLROOT ?>/dashboard">Dashboard</a></li>
+                <li><a href="<?php echo URLROOT ?>/products">Dashboard</a></li>
                 <?php endif ;?>
             </ul>
             <div class="icons-container">
